@@ -13,7 +13,22 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>coded by mahdesign</small>
+          <small>
+            This project coded by mahdesign and is{" "}
+            <a
+              href="https://github.com/mahdesign/dictionary-project"
+              target="_blank"
+            >
+              open-sourced on Github
+            </a>
+            and{" "}
+            <a
+              href="https://fervent-hamilton-990eec.netlify.app/"
+              target="_blank"
+            >
+              Hosted on Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
